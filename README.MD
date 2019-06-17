@@ -5,7 +5,7 @@ This app deals with the boilerplate code of using the Fitbit API with Spring Boo
 [Installing a JDK](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
 [Read More About the Fitbit API](https://dev.fitbit.com/docs/)
 
-##Prerequisites
+##Prerequisites   
 This document assumes you have a JDK and maven installed. A tutorial for installing these is out of scope for this project, but there are many resources to instruct you on how to do so.
 
 [Installing Apache Maven](https://maven.apache.org/install.html)
