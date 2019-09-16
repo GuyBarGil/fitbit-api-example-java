@@ -6,7 +6,7 @@
       "name": "GUY",
       "message": "GUY",
       "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
-      "severity": "Epic",
+      "severity": "High",
       "scanner": {
         "id": "retire.js",
         "name": "Retire.js"
