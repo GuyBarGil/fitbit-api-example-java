@@ -3,7 +3,7 @@
   "vulnerabilities": [
     {
       "category": "dependency_scanning",
-      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "name": "GUY",
       "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
       "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
       "severity": "High",
