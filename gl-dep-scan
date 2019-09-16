@@ -1,0 +1,5823 @@
+{
+  "version": "2.1",
+  "vulnerabilities": [
+    {
+      "category": "dependency_scanning",
+      "name": "GUY",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.min.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.min.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.min.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.min.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.min.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.min.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.amd.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.min.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template in handlebars.js",
+      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.min.js:handlebars.js:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.runtime.min.js",
+        "dependency": {
+          "package": {
+            "name": "handlebars.js"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Path Traversal",
+      "message": "Path Traversal in adm-zip",
+      "cve": "package.json:adm-zip:hackerone:362118",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "adm-zip"
+          },
+          "version": "0.4.7"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-362118",
+          "value": "362118",
+          "url": "https://hackerone.com/reports/362118"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/362118"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars may lead to remote code execution if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars may lead to remote code execution if an attacker can control the template in handlebars",
+      "cve": "package.json:handlebars:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "handlebars"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "A prototype pollution vulnerability in handlebars may lead to remote code execution if an attacker can control the template",
+      "message": "A prototype pollution vulnerability in handlebars may lead to remote code execution if an attacker can control the template in handlebars",
+      "cve": "package.json:handlebars:retire.js:d033c1b823e1f594d47d1a913f6d3cc7",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "handlebars"
+          },
+          "version": "4.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-d033c1b823e1f594d47d1a913f6d3cc7",
+          "value": "d033c1b823e1f594d47d1a913f6d3cc7",
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692"
+        },
+        {
+          "url": "https://github.com/wycats/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "jquery_xss",
+      "message": "jquery_xss in jquery",
+      "cve": "package.json:jquery:npm:328",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-328",
+          "value": "328",
+          "url": "https://www.npmjs.com/advisories/328"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/328"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype Pollution",
+      "message": "Prototype Pollution in mpath",
+      "cve": "package.json:mpath:hackerone:390860",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "mpath"
+          },
+          "version": "0.1.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-390860",
+          "value": "390860",
+          "url": "https://hackerone.com/reports/390860"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/390860"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Out-of-bounds Read",
+      "message": "Out-of-bounds Read in npmconf",
+      "cve": "package.json:npmconf:hackerone:320269",
+      "severity": "High",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "npmconf"
+          },
+          "version": "0.0.24"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-320269",
+          "value": "320269",
+          "url": "https://hackerone.com/reports/320269"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/320269"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "parseHTML() executes scripts in event handlers",
+      "message": "parseHTML() executes scripts in event handlers in jquery",
+      "cve": "node_modules/jquery/dist/jquery.js:jquery:cve:CVE-2015-9251",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/jquery/dist/jquery.js",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2015-9251",
+          "value": "CVE-2015-9251",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9251"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://bugs.jquery.com/ticket/11974"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-9251"
+        },
+        {
+          "url": "http://research.insecurelabs.org/jquery/test/"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "parseHTML() executes scripts in event handlers",
+      "message": "parseHTML() executes scripts in event handlers in jquery",
+      "cve": "node_modules/jquery/dist/jquery.min.js:jquery:cve:CVE-2015-9251",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/jquery/dist/jquery.min.js",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2015-9251",
+          "value": "CVE-2015-9251",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9251"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://bugs.jquery.com/ticket/11974"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-9251"
+        },
+        {
+          "url": "http://research.insecurelabs.org/jquery/test/"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "brace-expansion_redos",
+      "message": "brace-expansion_redos in brace-expansion",
+      "cve": "package.json:brace-expansion:npm:338",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "brace-expansion"
+          },
+          "version": "1.1.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-338",
+          "value": "338",
+          "url": "https://www.npmjs.com/advisories/338"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/338"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "message": "Vulnerability in cookie-signature",
+      "cve": "package.json:cookie-signature:npm:134",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "cookie-signature"
+          },
+          "version": "1.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-134",
+          "value": "134",
+          "url": "https://www.npmjs.com/advisories/134"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/134"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regex denial of service",
+      "message": "Regex denial of service in hawk",
+      "cve": "package.json:hawk:npm:77",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "hawk"
+          },
+          "version": "1.1.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-77",
+          "value": "77",
+          "url": "https://www.npmjs.com/advisories/77"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/77"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "marked_content-injection",
+      "message": "marked_content-injection in marked",
+      "cve": "package.json:marked:npm:101",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "marked"
+          },
+          "version": "0.3.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-101",
+          "value": "101",
+          "url": "https://www.npmjs.com/advisories/101"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/101"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "message": "Vulnerability in marked",
+      "cve": "package.json:marked:retire.js:fc7e19381a9d64c860e2e3e480e42e32",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "marked"
+          },
+          "version": "0.3.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "retire.js",
+          "name": "RETIRE-JS-fc7e19381a9d64c860e2e3e480e42e32",
+          "value": "fc7e19381a9d64c860e2e3e480e42e32",
+          "url": "https://srcclr.com/security/cross-site-scripting-xss-due-to/javascript/s-2309"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://srcclr.com/security/cross-site-scripting-xss-due-to/javascript/s-2309"
+        },
+        {
+          "url": "https://github.com/markedjs/marked/pull/592"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular expression denial of service",
+      "message": "Regular expression denial of service in ms",
+      "cve": "package.json:ms:npm:46",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "ms"
+          },
+          "version": "0.6.2"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-46",
+          "value": "46",
+          "url": "https://www.npmjs.com/advisories/46"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/46"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "request_remote-memory-exposure",
+      "message": "request_remote-memory-exposure in request",
+      "cve": "package.json:request:npm:309",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "request"
+          },
+          "version": "2.42.0"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-309",
+          "value": "309",
+          "url": "https://www.npmjs.com/advisories/309"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/309"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "semver_regular-expression-denial-of-service",
+      "message": "semver_regular-expression-denial-of-service in semver",
+      "cve": "package.json:semver:npm:31",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "semver"
+          },
+          "version": "1.1.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "npm",
+          "name": "NPM-31",
+          "value": "31",
+          "url": "https://www.npmjs.com/advisories/31"
+        }
+      ],
+      "links": [
+        {
+          "url": "http://nodesecurity.io/advisories/31"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "message": "Vulnerability in st",
+      "cve": "package.json:st:cve:CVE-2014-3744",
+      "severity": "Medium",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "st"
+          },
+          "version": "0.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2014-3744",
+          "value": "CVE-2014-3744",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3744"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/36"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution",
+      "message": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution in jquery",
+      "cve": "node_modules/jquery/dist/jquery.js:jquery:cve:CVE-2019-11358",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/jquery/dist/jquery.js",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2019-11358",
+          "value": "CVE-2019-11358",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11358"
+        },
+        {
+          "url": "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution",
+      "message": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution in jquery",
+      "cve": "node_modules/jquery/dist/jquery.min.js:jquery:cve:CVE-2019-11358",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "node_modules/jquery/dist/jquery.min.js",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2019-11358",
+          "value": "CVE-2019-11358",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11358"
+        },
+        {
+          "url": "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype pollution attack",
+      "message": "Prototype pollution attack in hoek",
+      "cve": "package.json:hoek:hackerone:310439",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "2.16.3"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-310439",
+          "value": "310439",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype pollution attack",
+      "message": "Prototype pollution attack in hoek",
+      "cve": "package.json:hoek:hackerone:310439",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "0.9.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-310439",
+          "value": "310439",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution",
+      "message": "jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution in jquery",
+      "cve": "package.json:jquery:cve:CVE-2019-11358",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2019-11358",
+          "value": "CVE-2019-11358",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/"
+        },
+        {
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11358"
+        },
+        {
+          "url": "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype pollution attack",
+      "message": "Prototype pollution attack in lodash",
+      "cve": "package.json:lodash:hackerone:380873",
+      "severity": "Low",
+      "scanner": {
+        "id": "retire.js",
+        "name": "Retire.js"
+      },
+      "location": {
+        "file": "package.json",
+        "dependency": {
+          "package": {
+            "name": "lodash"
+          },
+          "version": "4.17.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "hackerone",
+          "name": "HACKERONE-380873",
+          "value": "380873",
+          "url": "https://hackerone.com/reports/380873"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hackerone.com/reports/380873"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression DoS",
+      "message": "Regular Expression DoS in brace-expansion",
+      "description": "brace expansion is vulnerable to Regular Expression Denial of Service attacks.",
+      "cve": "package-lock.json:brace-expansion:gemnasium:8afb86ca-4a5e-4803-abcc-c9988ef61abf",
+      "severity": "Unknown",
+      "solution": "Upgrade to version 1.1.7 or later.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "brace-expansion"
+          },
+          "version": "1.1.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-8afb86ca-4a5e-4803-abcc-c9988ef61abf",
+          "value": "8afb86ca-4a5e-4803-abcc-c9988ef61abf",
+          "url": "https://deps.sec.gitlab.com/packages/npm/brace-expansion/versions/1.1.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/juliangruber/brace-expansion/issues/33"
+        },
+        {
+          "url": "https://github.com/juliangruber/brace-expansion/pull/35"
+        },
+        {
+          "url": "https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/338"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Timing attack vulnerability",
+      "message": "Timing attack vulnerability in cookie-signature",
+      "description": "Cookie-signature is vulnerable to timing attacks.",
+      "cve": "package-lock.json:cookie-signature:gemnasium:c9d8e918-b426-4cad-b6f0-c8372124ceb7",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version. ",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "cookie-signature"
+          },
+          "version": "1.0.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-c9d8e918-b426-4cad-b6f0-c8372124ceb7",
+          "value": "c9d8e918-b426-4cad-b6f0-c8372124ceb7",
+          "url": "https://deps.sec.gitlab.com/packages/npm/cookie-signature/versions/1.0.5/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2016-1000236",
+          "value": "CVE-2016-1000236",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000236"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/tj/node-cookie-signature/commit/39791081692e9e14aa62855369e1c7f80fbfd50e"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/134"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in debug",
+      "description": "The debug module is vulnerable to regular expression denial of service when untrusted user input is passed into the `o` formatter. It takes around 50k characters to block for 2 seconds making this a low severity issue.",
+      "cve": "package-lock.json:debug:gemnasium:37283ed4-0380-40d7-ada7-2d994afcc62a",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest versions.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "debug"
+          },
+          "version": "2.2.0"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-37283ed4-0380-40d7-ada7-2d994afcc62a",
+          "value": "37283ed4-0380-40d7-ada7-2d994afcc62a",
+          "url": "https://deps.sec.gitlab.com/packages/npm/debug/versions/2.2.0/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/visionmedia/debug/issues/501"
+        },
+        {
+          "url": "https://github.com/visionmedia/debug/pull/504"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/534"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in fresh",
+      "description": "Fresh is vulnerable to a regular expression denial of service when it is passed specially crafted input to parse. This causes the event loop to be blocked causing a denial of service condition.",
+      "cve": "package-lock.json:fresh:gemnasium:a45dd12c-da38-4119-a6a7-1e0b3f9d5d44",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version. If you are using this module via express, upgrade to Express version 4.15.5 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "fresh"
+          },
+          "version": "0.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-a45dd12c-da38-4119-a6a7-1e0b3f9d5d44",
+          "value": "a45dd12c-da38-4119-a6a7-1e0b3f9d5d44",
+          "url": "https://deps.sec.gitlab.com/packages/npm/fresh/versions/0.2.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/526"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in hawk",
+      "description": "Specifically crafted long headers or uris can cause a minor denial of service.",
+      "cve": "package-lock.json:hawk:gemnasium:e33d0bab-2509-420f-950e-785c00309066",
+      "severity": "Unknown",
+      "solution": "Update to hawk version 4.1.1 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "hawk"
+          },
+          "version": "1.1.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-e33d0bab-2509-420f-950e-785c00309066",
+          "value": "e33d0bab-2509-420f-950e-785c00309066",
+          "url": "https://deps.sec.gitlab.com/packages/npm/hawk/versions/1.1.1/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2016-2515",
+          "value": "CVE-2016-2515",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2515"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/hueniverse/hawk/issues/168"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/77"
+        },
+        {
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype pollution attack",
+      "message": "Prototype pollution attack in hoek",
+      "description": "The `merge` function, and the `applyToDefaults` and `applyToDefaultsWithShallow` functions which leverage `merge` behind the scenes, are vulnerable to a prototype pollution attack when provided an unvalidated payload created from a JSON string containing the `__proto__` property.",
+      "cve": "package-lock.json:hoek:gemnasium:ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "0.9.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+          "value": "ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+          "url": "https://deps.sec.gitlab.com/packages/npm/hoek/versions/0.9.1/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2018-3728",
+          "value": "CVE-2018-3728",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3728"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "url": "https://hackerone.com/reports/310439"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/566"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Prototype pollution attack",
+      "message": "Prototype pollution attack in hoek",
+      "description": "The `merge` function, and the `applyToDefaults` and `applyToDefaultsWithShallow` functions which leverage `merge` behind the scenes, are vulnerable to a prototype pollution attack when provided an unvalidated payload created from a JSON string containing the `__proto__` property.",
+      "cve": "package-lock.json:hoek:gemnasium:ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "2.16.3"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+          "value": "ecfd31cc-df09-48ff-9f79-af1c4f989b49",
+          "url": "https://deps.sec.gitlab.com/packages/npm/hoek/versions/2.16.3/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2018-3728",
+          "value": "CVE-2018-3728",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3728"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "url": "https://hackerone.com/reports/310439"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/566"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Exceeding Stack Call Limit DoS",
+      "message": "Exceeding Stack Call Limit DoS in jquery",
+      "description": "A lowercasing logic is used on the attribute names. Because of this, boolean attributes whose names are not all lowercase cause infinite recursion, and will exceed the stack call limit.",
+      "cve": "package-lock.json:jquery:gemnasium:2e35e0f3-7716-4241-a56a-44025f0d66cb",
+      "severity": "Unknown",
+      "solution": "Upgrade to v3.0.0 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-2e35e0f3-7716-4241-a56a-44025f0d66cb",
+          "value": "2e35e0f3-7716-4241-a56a-44025f0d66cb",
+          "url": "https://deps.sec.gitlab.com/packages/npm/jquery/versions/2.2.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/jquery/jquery/issues/3133"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/330"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "XSS",
+      "message": "XSS in jquery",
+      "description": "When text/javascript responses are received from cross-origin ajax requests not containing the option `dataType`, the result is executed in `jQuery.globalEval` potentially allowing an attacker to execute arbitrary code on the origin.",
+      "cve": "package-lock.json:jquery:gemnasium:64559551-a08a-4af6-ab2e-80980dbfbf7d",
+      "severity": "Unknown",
+      "solution": "Upgrade to v3.0.0 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-64559551-a08a-4af6-ab2e-80980dbfbf7d",
+          "value": "64559551-a08a-4af6-ab2e-80980dbfbf7d",
+          "url": "https://deps.sec.gitlab.com/packages/npm/jquery/versions/2.2.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/328"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Denial of Service and remote code execution",
+      "message": "Denial of Service and remote code execution in lodash",
+      "description": "Functions in Lodash ( merge, mergeWith, defaultsDeep) can modify the prototype of \"Object\" if given malicious data. This can lead to denial of service or remote code execution.",
+      "cve": "package-lock.json:lodash:gemnasium:46774bb9-9ce5-4ffe-9bc8-4e610d24df43",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "lodash"
+          },
+          "version": "4.17.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-46774bb9-9ce5-4ffe-9bc8-4e610d24df43",
+          "value": "46774bb9-9ce5-4ffe-9bc8-4e610d24df43",
+          "url": "https://deps.sec.gitlab.com/packages/npm/lodash/versions/4.17.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a"
+        },
+        {
+          "url": "https://hackerone.com/reports/310443"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in marked",
+      "description": "The marked module is vulnerable to a regular expression denial of service. Based on the information published in the public issue, 1k characters can block for around 6 seconds.",
+      "cve": "package-lock.json:marked:gemnasium:1ea42320-be49-483b-b3fc-8a3a090e9d6a",
+      "severity": "Unknown",
+      "solution": "Update to 0.3.9",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "marked"
+          },
+          "version": "0.3.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-1ea42320-be49-483b-b3fc-8a3a090e9d6a",
+          "value": "1ea42320-be49-483b-b3fc-8a3a090e9d6a",
+          "url": "https://deps.sec.gitlab.com/packages/npm/marked/versions/0.3.5/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/chjj/marked/issues/937"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/531"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Sanitization bypass using HTML Entities",
+      "message": "Sanitization bypass using HTML Entities in marked",
+      "description": "Due to the way that marked parses input, specifically HTML entities, it's possible to bypass marked's content injection protection (`sanitize: true`) to inject a `javascript:` URL.\r\n\r\nThis flaw exists because `\u0026#xNNanything;` gets parsed to what it could and leaves the rest behind, resulting in just `anything;` being left. ",
+      "cve": "package-lock.json:marked:gemnasium:9de559de-c695-4014-8b09-c27eea5b90c7",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "marked"
+          },
+          "version": "0.3.5"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-9de559de-c695-4014-8b09-c27eea5b90c7",
+          "value": "9de559de-c695-4014-8b09-c27eea5b90c7",
+          "url": "https://deps.sec.gitlab.com/packages/npm/marked/versions/0.3.5/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/chjj/marked/pull/592"
+        },
+        {
+          "url": "https://github.com/chjj/marked/pull/592/commits/2cff85979be8e7a026a9aca35542c470cf5da523"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/101"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in mime",
+      "description": "The mime module is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.",
+      "cve": "package-lock.json:mime:gemnasium:6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+      "severity": "Unknown",
+      "solution": "Upgrade to version 2.0.3 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "mime"
+          },
+          "version": "1.3.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+          "value": "6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+          "url": "https://deps.sec.gitlab.com/packages/npm/mime/versions/1.3.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/broofa/node-mime/issues/167"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/535"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in mime",
+      "description": "The mime module is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.",
+      "cve": "package-lock.json:mime:gemnasium:6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+      "severity": "Unknown",
+      "solution": "Upgrade to version 2.0.3 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "mime"
+          },
+          "version": "1.2.11"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+          "value": "6c482efa-d68b-44eb-97d3-c2bf5fd542be",
+          "url": "https://deps.sec.gitlab.com/packages/npm/mime/versions/1.2.11/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/broofa/node-mime/issues/167"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/535"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in minimatch",
+      "description": "The primary function, `minimatch(path, pattern)` is vulnerable to ReDoS in the `pattern` parameter.  This is because of the regular expression on line 521 of minimatch.js: `/((?:\\\\{2})*)(\\\\?)\\|/g,`.  The problematic portion of the regex is `((?:\\\\{2})*)` which matches against `//`.",
+      "cve": "package-lock.json:minimatch:gemnasium:7d9ba955-fd99-4503-936e-f6833768f76e",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "minimatch"
+          },
+          "version": "3.0.0"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-7d9ba955-fd99-4503-936e-f6833768f76e",
+          "value": "7d9ba955-fd99-4503-936e-f6833768f76e",
+          "url": "https://deps.sec.gitlab.com/packages/npm/minimatch/versions/3.0.0/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/118"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in minimatch",
+      "description": "The primary function, `minimatch(path, pattern)` is vulnerable to ReDoS in the `pattern` parameter.  This is because of the regular expression on line 521 of minimatch.js: `/((?:\\\\{2})*)(\\\\?)\\|/g,`.  The problematic portion of the regex is `((?:\\\\{2})*)` which matches against `//`.",
+      "cve": "package-lock.json:minimatch:gemnasium:7d9ba955-fd99-4503-936e-f6833768f76e",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "minimatch"
+          },
+          "version": "2.0.10"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-7d9ba955-fd99-4503-936e-f6833768f76e",
+          "value": "7d9ba955-fd99-4503-936e-f6833768f76e",
+          "url": "https://deps.sec.gitlab.com/packages/npm/minimatch/versions/2.0.10/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/118"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in moment",
+      "description": "Moment is vulnerable to a low severity regular expression denial of service vulnerability.",
+      "cve": "package-lock.json:moment:gemnasium:a8a43b37-fc01-492c-b30b-996c906c5f84",
+      "severity": "Unknown",
+      "solution": "Update to version 2.19.3",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "moment"
+          },
+          "version": "2.15.1"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-a8a43b37-fc01-492c-b30b-996c906c5f84",
+          "value": "a8a43b37-fc01-492c-b30b-996c906c5f84",
+          "url": "https://deps.sec.gitlab.com/packages/npm/moment/versions/2.15.1/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/moment/moment/issues/4163"
+        },
+        {
+          "url": "https://github.com/moment/moment/pull/4326"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/532"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in ms",
+      "description": "ms is vulnerable to regular expression denial of service (ReDoS) when extremely long version strings are parsed.",
+      "cve": "package-lock.json:ms:gemnasium:827eff5e-940e-4e57-99a1-4fdbcfd4d06c",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "ms"
+          },
+          "version": "0.6.2"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-827eff5e-940e-4e57-99a1-4fdbcfd4d06c",
+          "value": "827eff5e-940e-4e57-99a1-4fdbcfd4d06c",
+          "url": "https://deps.sec.gitlab.com/packages/npm/ms/versions/0.6.2/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2015-8315",
+          "value": "CVE-2015-8315",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/46"
+        },
+        {
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in negotiator",
+      "description": "The header for \"Accept-Language\", when parsed by negotiator is vulnerable to Regular Expression Denial of Service via a specially crafted string. ",
+      "cve": "package-lock.json:negotiator:gemnasium:02f81bf9-e514-4530-a87b-9baa9cb33515",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.5.3"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "value": "02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "url": "https://deps.sec.gitlab.com/packages/npm/negotiator/versions/0.5.3/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/106"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in negotiator",
+      "description": "The header for \"Accept-Language\", when parsed by negotiator is vulnerable to Regular Expression Denial of Service via a specially crafted string. ",
+      "cve": "package-lock.json:negotiator:gemnasium:02f81bf9-e514-4530-a87b-9baa9cb33515",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.4.9"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "value": "02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "url": "https://deps.sec.gitlab.com/packages/npm/negotiator/versions/0.4.9/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/106"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in negotiator",
+      "description": "The header for \"Accept-Language\", when parsed by negotiator is vulnerable to Regular Expression Denial of Service via a specially crafted string. ",
+      "cve": "package-lock.json:negotiator:gemnasium:02f81bf9-e514-4530-a87b-9baa9cb33515",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.2.8"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "value": "02f81bf9-e514-4530-a87b-9baa9cb33515",
+          "url": "https://deps.sec.gitlab.com/packages/npm/negotiator/versions/0.2.8/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/106"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Remote Memory Exposure",
+      "message": "Remote Memory Exposure in request",
+      "description": "If a request is made using `multipart`, and the body type is a `number`, then the specified number of non-zero memory is passed in the body.",
+      "cve": "package-lock.json:request:gemnasium:04e24d91-9ce3-437b-a24d-7e9d3ec9f447",
+      "severity": "Unknown",
+      "solution": "Upgrade request to version 2.68.0 or higher.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "request"
+          },
+          "version": "2.42.0"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-04e24d91-9ce3-437b-a24d-7e9d3ec9f447",
+          "value": "04e24d91-9ce3-437b-a24d-7e9d3ec9f447",
+          "url": "https://deps.sec.gitlab.com/packages/npm/request/versions/2.42.0/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/request/request/pull/2018"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/309"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Regular Expression Denial of Service",
+      "message": "Regular Expression Denial of Service in semver",
+      "description": "semver is vulnerable to regular expression denial of service when extremely long version strings are parsed.",
+      "cve": "package-lock.json:semver:gemnasium:bee62db4-45f8-40f1-b4ca-483bb8d2482a",
+      "severity": "Unknown",
+      "solution": "Update to latest version",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "semver"
+          },
+          "version": "1.1.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-bee62db4-45f8-40f1-b4ca-483bb8d2482a",
+          "value": "bee62db4-45f8-40f1-b4ca-483bb8d2482a",
+          "url": "https://deps.sec.gitlab.com/packages/npm/semver/versions/1.1.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/npm/node-semver/commit/c80180d8341a8ada0236815c29a2be59864afd70"
+        },
+        {
+          "url": "https://github.com/npm/npm/releases/tag/v2.7.5"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/semver_redos"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Open Redirect",
+      "message": "Open Redirect in st",
+      "description": "An attacker is able to craft a request that results in an `HTTP 301` (redirect) to an entirely different domain.",
+      "cve": "package-lock.json:st:gemnasium:3ed3bd53-fe5d-4f93-a849-4811e5e460b0",
+      "severity": "Unknown",
+      "solution": "Upgrade to v1.2.2 or later.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "st"
+          },
+          "version": "0.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-3ed3bd53-fe5d-4f93-a849-4811e5e460b0",
+          "value": "3ed3bd53-fe5d-4f93-a849-4811e5e460b0",
+          "url": "https://deps.sec.gitlab.com/packages/npm/st/versions/0.2.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nodesecurity.io/advisories/547"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Static file leakage",
+      "message": "Static file leakage in st",
+      "description": "As stated on \"The NPM Blog\", \"it was possible, through a carefully encoded URL, to get st to serve any file it could see, not just the ones in the static content directory, and you could also list the contents of directories, so it was very easy to go looking for sensitive files.\" The NPM registry relies on st, meaning that all the versions of all the npms published prior to March 17th may be corrupted. But there is no evidence that they *have* been corrupted.",
+      "cve": "package-lock.json:st:gemnasium:9dc25279-7ac0-4774-acb2-680f8a3170ef",
+      "severity": "Unknown",
+      "solution": "Upgrade to latest version",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "st"
+          },
+          "version": "0.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-9dc25279-7ac0-4774-acb2-680f8a3170ef",
+          "value": "9dc25279-7ac0-4774-acb2-680f8a3170ef",
+          "url": "https://deps.sec.gitlab.com/packages/npm/st/versions/0.2.4/advisories"
+        }
+      ],
+      "links": [
+        {
+          "url": "http://blog.npmjs.org/post/80277229932/newly-paranoid-maintainers"
+        },
+        {
+          "url": "https://github.com/isaacs/st/commit/f961d4a839a76a423b212c716776d583b8d120e9"
+        }
+      ]
+    },
+    {
+      "category": "dependency_scanning",
+      "name": "Directory Traversal",
+      "message": "Directory Traversal in st",
+      "description": "URL encoded dots in path are not properly handled, leading to possible directory traversal.",
+      "cve": "package-lock.json:st:gemnasium:fc9a84ea-9b5d-4b5a-921c-56d9715b7fe3",
+      "severity": "Unknown",
+      "solution": "- Upgrade to version 0.2.5 or greater.",
+      "scanner": {
+        "id": "gemnasium",
+        "name": "Gemnasium"
+      },
+      "location": {
+        "file": "package-lock.json",
+        "dependency": {
+          "package": {
+            "name": "st"
+          },
+          "version": "0.2.4"
+        }
+      },
+      "identifiers": [
+        {
+          "type": "gemnasium",
+          "name": "Gemnasium-fc9a84ea-9b5d-4b5a-921c-56d9715b7fe3",
+          "value": "fc9a84ea-9b5d-4b5a-921c-56d9715b7fe3",
+          "url": "https://deps.sec.gitlab.com/packages/npm/st/versions/0.2.4/advisories"
+        },
+        {
+          "type": "cve",
+          "name": "CVE-2014-3744",
+          "value": "CVE-2014-3744",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3744"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/isaacs/st#security-status"
+        },
+        {
+          "url": "https://nodesecurity.io/advisories/36"
+        }
+      ]
+    }
+  ],
+  "remediations": [],
+  "dependency_files": [
+    {
+      "path": "package-lock.json",
+      "package_manager": "npm",
+      "dependencies": [
+        {
+          "package": {
+            "name": "@snyk/nodejs-runtime-agent"
+          },
+          "version": "1.43.0"
+        },
+        {
+          "package": {
+            "name": "JSONStream"
+          },
+          "version": "1.3.5"
+        },
+        {
+          "package": {
+            "name": "abbrev"
+          },
+          "version": "1.0.7"
+        },
+        {
+          "package": {
+            "name": "abbrev"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "accepts"
+          },
+          "version": "1.1.4"
+        },
+        {
+          "package": {
+            "name": "accepts"
+          },
+          "version": "1.2.13"
+        },
+        {
+          "package": {
+            "name": "acorn"
+          },
+          "version": "5.7.1"
+        },
+        {
+          "package": {
+            "name": "acorn"
+          },
+          "version": "6.1.1"
+        },
+        {
+          "package": {
+            "name": "acorn-dynamic-import"
+          },
+          "version": "4.0.0"
+        },
+        {
+          "package": {
+            "name": "acorn-node"
+          },
+          "version": "1.6.2"
+        },
+        {
+          "package": {
+            "name": "acorn-walk"
+          },
+          "version": "6.1.1"
+        },
+        {
+          "package": {
+            "name": "adm-zip"
+          },
+          "version": "0.4.7"
+        },
+        {
+          "package": {
+            "name": "align-text"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "amdefine"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "ansi-regex"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "ansi-regex"
+          },
+          "version": "2.1.1"
+        },
+        {
+          "package": {
+            "name": "ansi-styles"
+          },
+          "version": "2.2.1"
+        },
+        {
+          "package": {
+            "name": "append-transform"
+          },
+          "version": "0.4.0"
+        },
+        {
+          "package": {
+            "name": "argparse"
+          },
+          "version": "1.0.10"
+        },
+        {
+          "package": {
+            "name": "argparse"
+          },
+          "version": "1.0.7"
+        },
+        {
+          "package": {
+            "name": "arr-diff"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "arr-flatten"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "array-filter"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "array-map"
+          },
+          "version": "0.0.0"
+        },
+        {
+          "package": {
+            "name": "array-reduce"
+          },
+          "version": "0.0.0"
+        },
+        {
+          "package": {
+            "name": "array-unique"
+          },
+          "version": "0.2.1"
+        },
+        {
+          "package": {
+            "name": "arrify"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "asn1"
+          },
+          "version": "0.1.11"
+        },
+        {
+          "package": {
+            "name": "asn1"
+          },
+          "version": "0.2.4"
+        },
+        {
+          "package": {
+            "name": "asn1.js"
+          },
+          "version": "4.10.1"
+        },
+        {
+          "package": {
+            "name": "assert"
+          },
+          "version": "1.4.1"
+        },
+        {
+          "package": {
+            "name": "assert-plus"
+          },
+          "version": "0.1.5"
+        },
+        {
+          "package": {
+            "name": "assert-plus"
+          },
+          "version": "0.2.0"
+        },
+        {
+          "package": {
+            "name": "assert-plus"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "async"
+          },
+          "version": "0.2.10"
+        },
+        {
+          "package": {
+            "name": "async"
+          },
+          "version": "0.9.0"
+        },
+        {
+          "package": {
+            "name": "async"
+          },
+          "version": "1.5.2"
+        },
+        {
+          "package": {
+            "name": "async-cache"
+          },
+          "version": "0.1.5"
+        },
+        {
+          "package": {
+            "name": "asynckit"
+          },
+          "version": "0.4.0"
+        },
+        {
+          "package": {
+            "name": "aws-sign2"
+          },
+          "version": "0.5.0"
+        },
+        {
+          "package": {
+            "name": "aws-sign2"
+          },
+          "version": "0.6.0"
+        },
+        {
+          "package": {
+            "name": "aws4"
+          },
+          "version": "1.8.0"
+        },
+        {
+          "package": {
+            "name": "balanced-match"
+          },
+          "version": "0.4.1"
+        },
+        {
+          "package": {
+            "name": "balanced-match"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "base64-js"
+          },
+          "version": "1.3.0"
+        },
+        {
+          "package": {
+            "name": "basic-auth"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "bcrypt-pbkdf"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "bl"
+          },
+          "version": "0.9.5"
+        },
+        {
+          "package": {
+            "name": "bluebird"
+          },
+          "version": "2.9.26"
+        },
+        {
+          "package": {
+            "name": "bluebird"
+          },
+          "version": "3.5.4"
+        },
+        {
+          "package": {
+            "name": "bn.js"
+          },
+          "version": "4.11.8"
+        },
+        {
+          "package": {
+            "name": "body-parser"
+          },
+          "version": "1.9.0"
+        },
+        {
+          "package": {
+            "name": "boom"
+          },
+          "version": "0.4.2"
+        },
+        {
+          "package": {
+            "name": "boom"
+          },
+          "version": "2.10.1"
+        },
+        {
+          "package": {
+            "name": "brace-expansion"
+          },
+          "version": "1.1.11"
+        },
+        {
+          "package": {
+            "name": "brace-expansion"
+          },
+          "version": "1.1.4"
+        },
+        {
+          "package": {
+            "name": "braces"
+          },
+          "version": "1.8.5"
+        },
+        {
+          "package": {
+            "name": "brorand"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "browser-pack"
+          },
+          "version": "6.1.0"
+        },
+        {
+          "package": {
+            "name": "browser-resolve"
+          },
+          "version": "1.11.3"
+        },
+        {
+          "package": {
+            "name": "browserify"
+          },
+          "version": "13.3.0"
+        },
+        {
+          "package": {
+            "name": "browserify-aes"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "browserify-cipher"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "browserify-des"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "browserify-rsa"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "browserify-sign"
+          },
+          "version": "4.0.4"
+        },
+        {
+          "package": {
+            "name": "browserify-zlib"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "bson"
+          },
+          "version": "0.4.23"
+        },
+        {
+          "package": {
+            "name": "buffer"
+          },
+          "version": "4.9.1"
+        },
+        {
+          "package": {
+            "name": "buffer-from"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "buffer-xor"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "builtin-modules"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "builtin-status-codes"
+          },
+          "version": "3.0.0"
+        },
+        {
+          "package": {
+            "name": "busboy"
+          },
+          "version": "0.3.1"
+        },
+        {
+          "package": {
+            "name": "bytes"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "cached-path-relative"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "caching-transform"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "camelcase"
+          },
+          "version": "1.2.1"
+        },
+        {
+          "package": {
+            "name": "camelcase"
+          },
+          "version": "2.1.1"
+        },
+        {
+          "package": {
+            "name": "camelcase"
+          },
+          "version": "3.0.0"
+        },
+        {
+          "package": {
+            "name": "caseless"
+          },
+          "version": "0.11.0"
+        },
+        {
+          "package": {
+            "name": "caseless"
+          },
+          "version": "0.6.0"
+        },
+        {
+          "package": {
+            "name": "center-align"
+          },
+          "version": "0.1.3"
+        },
+        {
+          "package": {
+            "name": "cfenv"
+          },
+          "version": "1.2.2"
+        },
+        {
+          "package": {
+            "name": "chalk"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "cipher-base"
+          },
+          "version": "1.0.4"
+        },
+        {
+          "package": {
+            "name": "clean-yaml-object"
+          },
+          "version": "0.1.0"
+        },
+        {
+          "package": {
+            "name": "cliui"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "cliui"
+          },
+          "version": "3.2.0"
+        },
+        {
+          "package": {
+            "name": "code-point-at"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "codecov.io"
+          },
+          "version": "0.1.6"
+        },
+        {
+          "package": {
+            "name": "color-support"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "combine-source-map"
+          },
+          "version": "0.8.0"
+        },
+        {
+          "package": {
+            "name": "combined-stream"
+          },
+          "version": "0.0.7"
+        },
+        {
+          "package": {
+            "name": "combined-stream"
+          },
+          "version": "1.0.7"
+        },
+        {
+          "package": {
+            "name": "commander"
+          },
+          "version": "2.20.0"
+        },
+        {
+          "package": {
+            "name": "commondir"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "concat-map"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "concat-stream"
+          },
+          "version": "1.5.2"
+        },
+        {
+          "package": {
+            "name": "concat-stream"
+          },
+          "version": "1.6.2"
+        },
+        {
+          "package": {
+            "name": "config-chain"
+          },
+          "version": "1.1.12"
+        },
+        {
+          "package": {
+            "name": "connect-busboy"
+          },
+          "version": "0.0.2"
+        },
+        {
+          "package": {
+            "name": "console-browserify"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "consolidate"
+          },
+          "version": "0.14.5"
+        },
+        {
+          "package": {
+            "name": "constants-browserify"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "content-disposition"
+          },
+          "version": "0.5.0"
+        },
+        {
+          "package": {
+            "name": "content-type"
+          },
+          "version": "1.0.4"
+        },
+        {
+          "package": {
+            "name": "convert-source-map"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "convert-source-map"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "cookie"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "cookie-parser"
+          },
+          "version": "1.3.3"
+        },
+        {
+          "package": {
+            "name": "cookie-signature"
+          },
+          "version": "1.0.5"
+        },
+        {
+          "package": {
+            "name": "cookie-signature"
+          },
+          "version": "1.0.6"
+        },
+        {
+          "package": {
+            "name": "core-util-is"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "coveralls"
+          },
+          "version": "2.13.3"
+        },
+        {
+          "package": {
+            "name": "crc"
+          },
+          "version": "3.2.1"
+        },
+        {
+          "package": {
+            "name": "create-ecdh"
+          },
+          "version": "4.0.3"
+        },
+        {
+          "package": {
+            "name": "create-hash"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "create-hmac"
+          },
+          "version": "1.1.7"
+        },
+        {
+          "package": {
+            "name": "cross-spawn"
+          },
+          "version": "4.0.2"
+        },
+        {
+          "package": {
+            "name": "cross-spawn-async"
+          },
+          "version": "2.2.4"
+        },
+        {
+          "package": {
+            "name": "cryptiles"
+          },
+          "version": "0.2.2"
+        },
+        {
+          "package": {
+            "name": "cryptiles"
+          },
+          "version": "2.0.5"
+        },
+        {
+          "package": {
+            "name": "crypto-browserify"
+          },
+          "version": "3.12.0"
+        },
+        {
+          "package": {
+            "name": "ctype"
+          },
+          "version": "0.5.3"
+        },
+        {
+          "package": {
+            "name": "dash-ast"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "dashdash"
+          },
+          "version": "1.14.1"
+        },
+        {
+          "package": {
+            "name": "date-now"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "debug"
+          },
+          "version": "2.2.0"
+        },
+        {
+          "package": {
+            "name": "debug"
+          },
+          "version": "2.6.9"
+        },
+        {
+          "package": {
+            "name": "debug"
+          },
+          "version": "3.1.0"
+        },
+        {
+          "package": {
+            "name": "debug"
+          },
+          "version": "4.1.1"
+        },
+        {
+          "package": {
+            "name": "decamelize"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "deep-equal"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "deep-is"
+          },
+          "version": "0.1.3"
+        },
+        {
+          "package": {
+            "name": "deeper"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "default-require-extensions"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "defined"
+          },
+          "version": "0.0.0"
+        },
+        {
+          "package": {
+            "name": "defined"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "delayed-stream"
+          },
+          "version": "0.0.5"
+        },
+        {
+          "package": {
+            "name": "delayed-stream"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "depd"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "depd"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "deps-sort"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "des.js"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "destroy"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "detective"
+          },
+          "version": "4.7.1"
+        },
+        {
+          "package": {
+            "name": "dicer"
+          },
+          "version": "0.3.0"
+        },
+        {
+          "package": {
+            "name": "diff"
+          },
+          "version": "1.4.0"
+        },
+        {
+          "package": {
+            "name": "diffie-hellman"
+          },
+          "version": "5.0.3"
+        },
+        {
+          "package": {
+            "name": "domain-browser"
+          },
+          "version": "1.1.7"
+        },
+        {
+          "package": {
+            "name": "duplexer"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "duplexer2"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "dustjs-helpers"
+          },
+          "version": "1.5.0"
+        },
+        {
+          "package": {
+            "name": "dustjs-linkedin"
+          },
+          "version": "2.5.0"
+        },
+        {
+          "package": {
+            "name": "ecc-jsbn"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "ee-first"
+          },
+          "version": "1.0.5"
+        },
+        {
+          "package": {
+            "name": "ee-first"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "ee-first"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "ejs"
+          },
+          "version": "0.8.8"
+        },
+        {
+          "package": {
+            "name": "ejs"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "ejs-locals"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "elliptic"
+          },
+          "version": "6.4.1"
+        },
+        {
+          "package": {
+            "name": "error-ex"
+          },
+          "version": "1.3.0"
+        },
+        {
+          "package": {
+            "name": "errorhandler"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "es6-promise"
+          },
+          "version": "2.1.1"
+        },
+        {
+          "package": {
+            "name": "escape-html"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "escape-string-regexp"
+          },
+          "version": "1.0.5"
+        },
+        {
+          "package": {
+            "name": "escodegen"
+          },
+          "version": "1.8.0"
+        },
+        {
+          "package": {
+            "name": "esprima"
+          },
+          "version": "2.7.2"
+        },
+        {
+          "package": {
+            "name": "esprima"
+          },
+          "version": "2.7.3"
+        },
+        {
+          "package": {
+            "name": "esprima"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "estraverse"
+          },
+          "version": "1.9.3"
+        },
+        {
+          "package": {
+            "name": "esutils"
+          },
+          "version": "2.0.2"
+        },
+        {
+          "package": {
+            "name": "etag"
+          },
+          "version": "1.6.0"
+        },
+        {
+          "package": {
+            "name": "events"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "events-to-array"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "evp_bytestokey"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "expand-brackets"
+          },
+          "version": "0.1.5"
+        },
+        {
+          "package": {
+            "name": "expand-range"
+          },
+          "version": "1.8.2"
+        },
+        {
+          "package": {
+            "name": "express"
+          },
+          "version": "4.12.4"
+        },
+        {
+          "package": {
+            "name": "express-fileupload"
+          },
+          "version": "0.0.5"
+        },
+        {
+          "package": {
+            "name": "extend"
+          },
+          "version": "3.0.2"
+        },
+        {
+          "package": {
+            "name": "extglob"
+          },
+          "version": "0.3.2"
+        },
+        {
+          "package": {
+            "name": "extsprintf"
+          },
+          "version": "1.3.0"
+        },
+        {
+          "package": {
+            "name": "fast-levenshtein"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "fd"
+          },
+          "version": "0.0.3"
+        },
+        {
+          "package": {
+            "name": "file-type"
+          },
+          "version": "8.1.0"
+        },
+        {
+          "package": {
+            "name": "filename-regex"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "fileset"
+          },
+          "version": "0.2.1"
+        },
+        {
+          "package": {
+            "name": "fill-range"
+          },
+          "version": "2.2.3"
+        },
+        {
+          "package": {
+            "name": "finalhandler"
+          },
+          "version": "0.3.6"
+        },
+        {
+          "package": {
+            "name": "find-cache-dir"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "find-up"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "for-in"
+          },
+          "version": "0.1.5"
+        },
+        {
+          "package": {
+            "name": "for-own"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "foreground-child"
+          },
+          "version": "1.5.1"
+        },
+        {
+          "package": {
+            "name": "foreground-child"
+          },
+          "version": "1.5.6"
+        },
+        {
+          "package": {
+            "name": "forever-agent"
+          },
+          "version": "0.5.2"
+        },
+        {
+          "package": {
+            "name": "forever-agent"
+          },
+          "version": "0.6.1"
+        },
+        {
+          "package": {
+            "name": "form-data"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "form-data"
+          },
+          "version": "2.1.4"
+        },
+        {
+          "package": {
+            "name": "forwarded"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "fresh"
+          },
+          "version": "0.2.4"
+        },
+        {
+          "package": {
+            "name": "fs-extra"
+          },
+          "version": "0.22.1"
+        },
+        {
+          "package": {
+            "name": "fs.realpath"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "function-bind"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "generate-function"
+          },
+          "version": "2.3.1"
+        },
+        {
+          "package": {
+            "name": "generate-object-property"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "get-assigned-identifiers"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "getpass"
+          },
+          "version": "0.1.7"
+        },
+        {
+          "package": {
+            "name": "glob"
+          },
+          "version": "5.0.15"
+        },
+        {
+          "package": {
+            "name": "glob"
+          },
+          "version": "7.0.3"
+        },
+        {
+          "package": {
+            "name": "glob"
+          },
+          "version": "7.1.3"
+        },
+        {
+          "package": {
+            "name": "glob-base"
+          },
+          "version": "0.3.0"
+        },
+        {
+          "package": {
+            "name": "glob-parent"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "graceful-fs"
+          },
+          "version": "1.2.3"
+        },
+        {
+          "package": {
+            "name": "graceful-fs"
+          },
+          "version": "4.1.15"
+        },
+        {
+          "package": {
+            "name": "graceful-fs"
+          },
+          "version": "4.1.4"
+        },
+        {
+          "package": {
+            "name": "handlebars"
+          },
+          "version": "4.0.5"
+        },
+        {
+          "package": {
+            "name": "har-validator"
+          },
+          "version": "2.0.6"
+        },
+        {
+          "package": {
+            "name": "has"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "has-ansi"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "has-flag"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "hash-base"
+          },
+          "version": "3.0.4"
+        },
+        {
+          "package": {
+            "name": "hash.js"
+          },
+          "version": "1.1.7"
+        },
+        {
+          "package": {
+            "name": "hawk"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "hawk"
+          },
+          "version": "3.1.3"
+        },
+        {
+          "package": {
+            "name": "hmac-drbg"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "0.9.1"
+        },
+        {
+          "package": {
+            "name": "hoek"
+          },
+          "version": "2.16.3"
+        },
+        {
+          "package": {
+            "name": "hooks-fixed"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "hosted-git-info"
+          },
+          "version": "2.1.5"
+        },
+        {
+          "package": {
+            "name": "htmlescape"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "http-signature"
+          },
+          "version": "0.10.1"
+        },
+        {
+          "package": {
+            "name": "http-signature"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "https-browserify"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "humanize-ms"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "iconv-lite"
+          },
+          "version": "0.4.24"
+        },
+        {
+          "package": {
+            "name": "iconv-lite"
+          },
+          "version": "0.4.4"
+        },
+        {
+          "package": {
+            "name": "ieee754"
+          },
+          "version": "1.1.13"
+        },
+        {
+          "package": {
+            "name": "imurmurhash"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "indexof"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "inflight"
+          },
+          "version": "1.0.5"
+        },
+        {
+          "package": {
+            "name": "inflight"
+          },
+          "version": "1.0.6"
+        },
+        {
+          "package": {
+            "name": "inherits"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "inherits"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "inherits"
+          },
+          "version": "2.0.3"
+        },
+        {
+          "package": {
+            "name": "ini"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "ini"
+          },
+          "version": "1.3.5"
+        },
+        {
+          "package": {
+            "name": "inline-source-map"
+          },
+          "version": "0.6.2"
+        },
+        {
+          "package": {
+            "name": "insert-module-globals"
+          },
+          "version": "7.2.0"
+        },
+        {
+          "package": {
+            "name": "invert-kv"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "ip-regex"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "ipaddr.js"
+          },
+          "version": "1.0.5"
+        },
+        {
+          "package": {
+            "name": "is-arrayish"
+          },
+          "version": "0.2.1"
+        },
+        {
+          "package": {
+            "name": "is-buffer"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "is-buffer"
+          },
+          "version": "1.1.6"
+        },
+        {
+          "package": {
+            "name": "is-builtin-module"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "is-dotfile"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "is-equal-shallow"
+          },
+          "version": "0.1.3"
+        },
+        {
+          "package": {
+            "name": "is-extendable"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "is-extglob"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "is-fullwidth-code-point"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "is-glob"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "is-my-ip-valid"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "is-my-json-valid"
+          },
+          "version": "2.19.0"
+        },
+        {
+          "package": {
+            "name": "is-number"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "is-posix-bracket"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "is-primitive"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "is-property"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "is-typedarray"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "is-utf8"
+          },
+          "version": "0.2.1"
+        },
+        {
+          "package": {
+            "name": "isarray"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "isarray"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "isarray"
+          },
+          "version": "2.0.4"
+        },
+        {
+          "package": {
+            "name": "isexe"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "isexe"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "isobject"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "isstream"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "istanbul"
+          },
+          "version": "0.4.3"
+        },
+        {
+          "package": {
+            "name": "jquery"
+          },
+          "version": "2.2.4"
+        },
+        {
+          "package": {
+            "name": "js-yaml"
+          },
+          "version": "3.13.1"
+        },
+        {
+          "package": {
+            "name": "js-yaml"
+          },
+          "version": "3.6.1"
+        },
+        {
+          "package": {
+            "name": "jsbn"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "json-schema"
+          },
+          "version": "0.2.3"
+        },
+        {
+          "package": {
+            "name": "json-stable-stringify"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "json-stringify-safe"
+          },
+          "version": "5.0.1"
+        },
+        {
+          "package": {
+            "name": "jsonfile"
+          },
+          "version": "2.4.0"
+        },
+        {
+          "package": {
+            "name": "jsonify"
+          },
+          "version": "0.0.0"
+        },
+        {
+          "package": {
+            "name": "jsonparse"
+          },
+          "version": "1.3.1"
+        },
+        {
+          "package": {
+            "name": "jsonpointer"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "jsprim"
+          },
+          "version": "1.4.1"
+        },
+        {
+          "package": {
+            "name": "kareem"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "kerberos"
+          },
+          "version": "0.0.24"
+        },
+        {
+          "package": {
+            "name": "kind-of"
+          },
+          "version": "3.0.3"
+        },
+        {
+          "package": {
+            "name": "labeled-stream-splicer"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "lazy-cache"
+          },
+          "version": "1.0.4"
+        },
+        {
+          "package": {
+            "name": "lcid"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "lcov-parse"
+          },
+          "version": "0.0.10"
+        },
+        {
+          "package": {
+            "name": "levn"
+          },
+          "version": "0.3.0"
+        },
+        {
+          "package": {
+            "name": "load-json-file"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "lodash"
+          },
+          "version": "4.17.4"
+        },
+        {
+          "package": {
+            "name": "lodash.assign"
+          },
+          "version": "4.0.9"
+        },
+        {
+          "package": {
+            "name": "lodash.keys"
+          },
+          "version": "4.0.7"
+        },
+        {
+          "package": {
+            "name": "lodash.memoize"
+          },
+          "version": "3.0.4"
+        },
+        {
+          "package": {
+            "name": "lodash.rest"
+          },
+          "version": "4.0.3"
+        },
+        {
+          "package": {
+            "name": "log-driver"
+          },
+          "version": "1.2.5"
+        },
+        {
+          "package": {
+            "name": "longest"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "lru-cache"
+          },
+          "version": "2.3.1"
+        },
+        {
+          "package": {
+            "name": "lru-cache"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "lru-cache"
+          },
+          "version": "4.1.5"
+        },
+        {
+          "package": {
+            "name": "marked"
+          },
+          "version": "0.3.5"
+        },
+        {
+          "package": {
+            "name": "md5-hex"
+          },
+          "version": "1.3.0"
+        },
+        {
+          "package": {
+            "name": "md5-o-matic"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "md5.js"
+          },
+          "version": "1.3.5"
+        },
+        {
+          "package": {
+            "name": "media-typer"
+          },
+          "version": "0.3.0"
+        },
+        {
+          "package": {
+            "name": "merge-descriptors"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "method-override"
+          },
+          "version": "3.0.0"
+        },
+        {
+          "package": {
+            "name": "methods"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "micromatch"
+          },
+          "version": "2.3.8"
+        },
+        {
+          "package": {
+            "name": "miller-rabin"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "mime"
+          },
+          "version": "1.2.11"
+        },
+        {
+          "package": {
+            "name": "mime"
+          },
+          "version": "1.3.4"
+        },
+        {
+          "package": {
+            "name": "mime-db"
+          },
+          "version": "1.12.0"
+        },
+        {
+          "package": {
+            "name": "mime-db"
+          },
+          "version": "1.39.0"
+        },
+        {
+          "package": {
+            "name": "mime-types"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "mime-types"
+          },
+          "version": "2.0.14"
+        },
+        {
+          "package": {
+            "name": "mime-types"
+          },
+          "version": "2.1.23"
+        },
+        {
+          "package": {
+            "name": "minimalistic-assert"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "minimalistic-crypto-utils"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "minimatch"
+          },
+          "version": "2.0.10"
+        },
+        {
+          "package": {
+            "name": "minimatch"
+          },
+          "version": "3.0.0"
+        },
+        {
+          "package": {
+            "name": "minimatch"
+          },
+          "version": "3.0.4"
+        },
+        {
+          "package": {
+            "name": "minimist"
+          },
+          "version": "0.0.10"
+        },
+        {
+          "package": {
+            "name": "minimist"
+          },
+          "version": "0.0.8"
+        },
+        {
+          "package": {
+            "name": "minimist"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "mkdirp"
+          },
+          "version": "0.3.5"
+        },
+        {
+          "package": {
+            "name": "mkdirp"
+          },
+          "version": "0.5.1"
+        },
+        {
+          "package": {
+            "name": "module-deps"
+          },
+          "version": "4.1.1"
+        },
+        {
+          "package": {
+            "name": "moment"
+          },
+          "version": "2.15.1"
+        },
+        {
+          "package": {
+            "name": "mongodb"
+          },
+          "version": "2.0.46"
+        },
+        {
+          "package": {
+            "name": "mongodb-core"
+          },
+          "version": "1.2.19"
+        },
+        {
+          "package": {
+            "name": "mongoose"
+          },
+          "version": "4.2.4"
+        },
+        {
+          "package": {
+            "name": "morgan"
+          },
+          "version": "1.9.1"
+        },
+        {
+          "package": {
+            "name": "mpath"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "mpromise"
+          },
+          "version": "0.5.4"
+        },
+        {
+          "package": {
+            "name": "mquery"
+          },
+          "version": "1.6.3"
+        },
+        {
+          "package": {
+            "name": "ms"
+          },
+          "version": "0.6.2"
+        },
+        {
+          "package": {
+            "name": "ms"
+          },
+          "version": "0.7.1"
+        },
+        {
+          "package": {
+            "name": "ms"
+          },
+          "version": "0.7.3"
+        },
+        {
+          "package": {
+            "name": "ms"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "ms"
+          },
+          "version": "2.1.1"
+        },
+        {
+          "package": {
+            "name": "muri"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "nan"
+          },
+          "version": "2.10.0"
+        },
+        {
+          "package": {
+            "name": "needle"
+          },
+          "version": "2.3.0"
+        },
+        {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.2.8"
+        },
+        {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.4.9"
+        },
+        {
+          "package": {
+            "name": "negotiator"
+          },
+          "version": "0.5.3"
+        },
+        {
+          "package": {
+            "name": "node-uuid"
+          },
+          "version": "1.4.8"
+        },
+        {
+          "package": {
+            "name": "nopt"
+          },
+          "version": "2.2.1"
+        },
+        {
+          "package": {
+            "name": "nopt"
+          },
+          "version": "3.0.6"
+        },
+        {
+          "package": {
+            "name": "normalize-package-data"
+          },
+          "version": "2.3.5"
+        },
+        {
+          "package": {
+            "name": "normalize-path"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "npmconf"
+          },
+          "version": "0.0.24"
+        },
+        {
+          "package": {
+            "name": "number-is-nan"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "nyc"
+          },
+          "version": "6.6.1"
+        },
+        {
+          "package": {
+            "name": "oauth-sign"
+          },
+          "version": "0.4.0"
+        },
+        {
+          "package": {
+            "name": "oauth-sign"
+          },
+          "version": "0.8.2"
+        },
+        {
+          "package": {
+            "name": "object-assign"
+          },
+          "version": "4.1.0"
+        },
+        {
+          "package": {
+            "name": "object.omit"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "on-finished"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "on-finished"
+          },
+          "version": "2.2.1"
+        },
+        {
+          "package": {
+            "name": "on-finished"
+          },
+          "version": "2.3.0"
+        },
+        {
+          "package": {
+            "name": "on-headers"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "once"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "once"
+          },
+          "version": "1.3.3"
+        },
+        {
+          "package": {
+            "name": "once"
+          },
+          "version": "1.4.0"
+        },
+        {
+          "package": {
+            "name": "only-shallow"
+          },
+          "version": "1.2.0"
+        },
+        {
+          "package": {
+            "name": "opener"
+          },
+          "version": "1.5.1"
+        },
+        {
+          "package": {
+            "name": "optimist"
+          },
+          "version": "0.6.1"
+        },
+        {
+          "package": {
+            "name": "optional"
+          },
+          "version": "0.1.4"
+        },
+        {
+          "package": {
+            "name": "optionator"
+          },
+          "version": "0.8.1"
+        },
+        {
+          "package": {
+            "name": "os-browserify"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "os-homedir"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "os-locale"
+          },
+          "version": "1.4.0"
+        },
+        {
+          "package": {
+            "name": "osenv"
+          },
+          "version": "0.0.3"
+        },
+        {
+          "package": {
+            "name": "pako"
+          },
+          "version": "0.2.9"
+        },
+        {
+          "package": {
+            "name": "parents"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "parse-asn1"
+          },
+          "version": "5.1.4"
+        },
+        {
+          "package": {
+            "name": "parse-glob"
+          },
+          "version": "3.0.4"
+        },
+        {
+          "package": {
+            "name": "parse-json"
+          },
+          "version": "2.2.0"
+        },
+        {
+          "package": {
+            "name": "parseurl"
+          },
+          "version": "1.3.3"
+        },
+        {
+          "package": {
+            "name": "path-browserify"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "path-exists"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "path-is-absolute"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "path-is-absolute"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "path-parse"
+          },
+          "version": "1.0.6"
+        },
+        {
+          "package": {
+            "name": "path-platform"
+          },
+          "version": "0.11.15"
+        },
+        {
+          "package": {
+            "name": "path-to-regexp"
+          },
+          "version": "0.1.3"
+        },
+        {
+          "package": {
+            "name": "path-type"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "pbkdf2"
+          },
+          "version": "3.0.17"
+        },
+        {
+          "package": {
+            "name": "pify"
+          },
+          "version": "2.3.0"
+        },
+        {
+          "package": {
+            "name": "pinkie"
+          },
+          "version": "2.0.4"
+        },
+        {
+          "package": {
+            "name": "pinkie-promise"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "pkg-conf"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "pkg-dir"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "pkg-up"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "ports"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "prelude-ls"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "preserve"
+          },
+          "version": "0.2.0"
+        },
+        {
+          "package": {
+            "name": "process"
+          },
+          "version": "0.11.10"
+        },
+        {
+          "package": {
+            "name": "process-nextick-args"
+          },
+          "version": "1.0.7"
+        },
+        {
+          "package": {
+            "name": "process-nextick-args"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "proto-list"
+          },
+          "version": "1.2.4"
+        },
+        {
+          "package": {
+            "name": "proxy-addr"
+          },
+          "version": "1.0.10"
+        },
+        {
+          "package": {
+            "name": "pseudomap"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "psl"
+          },
+          "version": "1.1.31"
+        },
+        {
+          "package": {
+            "name": "public-encrypt"
+          },
+          "version": "4.0.3"
+        },
+        {
+          "package": {
+            "name": "punycode"
+          },
+          "version": "1.3.2"
+        },
+        {
+          "package": {
+            "name": "punycode"
+          },
+          "version": "1.4.1"
+        },
+        {
+          "package": {
+            "name": "punycode"
+          },
+          "version": "2.1.1"
+        },
+        {
+          "package": {
+            "name": "qs"
+          },
+          "version": "1.2.2"
+        },
+        {
+          "package": {
+            "name": "qs"
+          },
+          "version": "2.2.4"
+        },
+        {
+          "package": {
+            "name": "qs"
+          },
+          "version": "2.4.2"
+        },
+        {
+          "package": {
+            "name": "qs"
+          },
+          "version": "6.3.2"
+        },
+        {
+          "package": {
+            "name": "querystring"
+          },
+          "version": "0.2.0"
+        },
+        {
+          "package": {
+            "name": "querystring-es3"
+          },
+          "version": "0.2.1"
+        },
+        {
+          "package": {
+            "name": "randomatic"
+          },
+          "version": "1.1.5"
+        },
+        {
+          "package": {
+            "name": "randombytes"
+          },
+          "version": "2.1.0"
+        },
+        {
+          "package": {
+            "name": "randomfill"
+          },
+          "version": "1.0.4"
+        },
+        {
+          "package": {
+            "name": "range-parser"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "raw-body"
+          },
+          "version": "1.3.0"
+        },
+        {
+          "package": {
+            "name": "read-only-stream"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "read-pkg"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "read-pkg-up"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "readable-stream"
+          },
+          "version": "1.0.31"
+        },
+        {
+          "package": {
+            "name": "readable-stream"
+          },
+          "version": "1.1.14"
+        },
+        {
+          "package": {
+            "name": "readable-stream"
+          },
+          "version": "2.0.6"
+        },
+        {
+          "package": {
+            "name": "readable-stream"
+          },
+          "version": "2.3.6"
+        },
+        {
+          "package": {
+            "name": "regex-cache"
+          },
+          "version": "0.4.3"
+        },
+        {
+          "package": {
+            "name": "regexp-clone"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "repeat-element"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "repeat-string"
+          },
+          "version": "1.5.4"
+        },
+        {
+          "package": {
+            "name": "request"
+          },
+          "version": "2.42.0"
+        },
+        {
+          "package": {
+            "name": "request"
+          },
+          "version": "2.79.0"
+        },
+        {
+          "package": {
+            "name": "require-main-filename"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "resolve"
+          },
+          "version": "1.1.7"
+        },
+        {
+          "package": {
+            "name": "resolve"
+          },
+          "version": "1.10.0"
+        },
+        {
+          "package": {
+            "name": "resolve-from"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "resumer"
+          },
+          "version": "0.0.0"
+        },
+        {
+          "package": {
+            "name": "right-align"
+          },
+          "version": "0.1.3"
+        },
+        {
+          "package": {
+            "name": "rimraf"
+          },
+          "version": "2.5.2"
+        },
+        {
+          "package": {
+            "name": "rimraf"
+          },
+          "version": "2.6.3"
+        },
+        {
+          "package": {
+            "name": "ripemd160"
+          },
+          "version": "2.0.2"
+        },
+        {
+          "package": {
+            "name": "safe-buffer"
+          },
+          "version": "5.1.2"
+        },
+        {
+          "package": {
+            "name": "safer-buffer"
+          },
+          "version": "2.1.2"
+        },
+        {
+          "package": {
+            "name": "sax"
+          },
+          "version": "1.2.4"
+        },
+        {
+          "package": {
+            "name": "semver"
+          },
+          "version": "1.1.4"
+        },
+        {
+          "package": {
+            "name": "semver"
+          },
+          "version": "5.1.0"
+        },
+        {
+          "package": {
+            "name": "semver"
+          },
+          "version": "5.7.0"
+        },
+        {
+          "package": {
+            "name": "send"
+          },
+          "version": "0.12.3"
+        },
+        {
+          "package": {
+            "name": "serve-static"
+          },
+          "version": "1.9.3"
+        },
+        {
+          "package": {
+            "name": "set-blocking"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "sha.js"
+          },
+          "version": "2.4.11"
+        },
+        {
+          "package": {
+            "name": "shasum"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "shell-quote"
+          },
+          "version": "1.6.1"
+        },
+        {
+          "package": {
+            "name": "signal-exit"
+          },
+          "version": "2.1.2"
+        },
+        {
+          "package": {
+            "name": "signal-exit"
+          },
+          "version": "3.0.0"
+        },
+        {
+          "package": {
+            "name": "signal-exit"
+          },
+          "version": "3.0.2"
+        },
+        {
+          "package": {
+            "name": "simple-concat"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "sliced"
+          },
+          "version": "0.0.5"
+        },
+        {
+          "package": {
+            "name": "slide"
+          },
+          "version": "1.1.6"
+        },
+        {
+          "package": {
+            "name": "sntp"
+          },
+          "version": "0.2.4"
+        },
+        {
+          "package": {
+            "name": "sntp"
+          },
+          "version": "1.0.9"
+        },
+        {
+          "package": {
+            "name": "source-map"
+          },
+          "version": "0.2.0"
+        },
+        {
+          "package": {
+            "name": "source-map"
+          },
+          "version": "0.4.4"
+        },
+        {
+          "package": {
+            "name": "source-map"
+          },
+          "version": "0.5.6"
+        },
+        {
+          "package": {
+            "name": "source-map"
+          },
+          "version": "0.5.7"
+        },
+        {
+          "package": {
+            "name": "spawn-wrap"
+          },
+          "version": "1.2.3"
+        },
+        {
+          "package": {
+            "name": "spdx-correct"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "spdx-exceptions"
+          },
+          "version": "1.0.4"
+        },
+        {
+          "package": {
+            "name": "spdx-expression-parse"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "spdx-license-ids"
+          },
+          "version": "1.2.1"
+        },
+        {
+          "package": {
+            "name": "split"
+          },
+          "version": "0.2.10"
+        },
+        {
+          "package": {
+            "name": "sprintf-js"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "sshpk"
+          },
+          "version": "1.16.1"
+        },
+        {
+          "package": {
+            "name": "st"
+          },
+          "version": "0.2.4"
+        },
+        {
+          "package": {
+            "name": "stack-utils"
+          },
+          "version": "0.4.0"
+        },
+        {
+          "package": {
+            "name": "stream-browserify"
+          },
+          "version": "2.0.2"
+        },
+        {
+          "package": {
+            "name": "stream-buffers"
+          },
+          "version": "3.0.2"
+        },
+        {
+          "package": {
+            "name": "stream-combiner"
+          },
+          "version": "0.0.4"
+        },
+        {
+          "package": {
+            "name": "stream-combiner2"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "stream-http"
+          },
+          "version": "2.8.3"
+        },
+        {
+          "package": {
+            "name": "stream-splicer"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "streamifier"
+          },
+          "version": "0.1.1"
+        },
+        {
+          "package": {
+            "name": "streamsearch"
+          },
+          "version": "0.1.2"
+        },
+        {
+          "package": {
+            "name": "string-width"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "string_decoder"
+          },
+          "version": "0.10.31"
+        },
+        {
+          "package": {
+            "name": "string_decoder"
+          },
+          "version": "1.1.1"
+        },
+        {
+          "package": {
+            "name": "stringstream"
+          },
+          "version": "0.0.6"
+        },
+        {
+          "package": {
+            "name": "strip-ansi"
+          },
+          "version": "3.0.1"
+        },
+        {
+          "package": {
+            "name": "strip-bom"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "subarg"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "supports-color"
+          },
+          "version": "1.3.1"
+        },
+        {
+          "package": {
+            "name": "supports-color"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "supports-color"
+          },
+          "version": "3.1.2"
+        },
+        {
+          "package": {
+            "name": "symbol"
+          },
+          "version": "0.2.3"
+        },
+        {
+          "package": {
+            "name": "syntax-error"
+          },
+          "version": "1.4.0"
+        },
+        {
+          "package": {
+            "name": "tap"
+          },
+          "version": "5.8.0"
+        },
+        {
+          "package": {
+            "name": "tap-mocha-reporter"
+          },
+          "version": "0.0.27"
+        },
+        {
+          "package": {
+            "name": "tap-parser"
+          },
+          "version": "1.3.2"
+        },
+        {
+          "package": {
+            "name": "tape"
+          },
+          "version": "2.3.0"
+        },
+        {
+          "package": {
+            "name": "test-exclude"
+          },
+          "version": "1.1.0"
+        },
+        {
+          "package": {
+            "name": "through"
+          },
+          "version": "2.3.8"
+        },
+        {
+          "package": {
+            "name": "through2"
+          },
+          "version": "2.0.5"
+        },
+        {
+          "package": {
+            "name": "timers-browserify"
+          },
+          "version": "1.4.2"
+        },
+        {
+          "package": {
+            "name": "tmatch"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "package": {
+            "name": "to-arraybuffer"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "tough-cookie"
+          },
+          "version": "2.3.4"
+        },
+        {
+          "package": {
+            "name": "tough-cookie"
+          },
+          "version": "3.0.1"
+        },
+        {
+          "package": {
+            "name": "tty-browserify"
+          },
+          "version": "0.0.1"
+        },
+        {
+          "package": {
+            "name": "tunnel-agent"
+          },
+          "version": "0.4.3"
+        },
+        {
+          "package": {
+            "name": "tweetnacl"
+          },
+          "version": "0.14.5"
+        },
+        {
+          "package": {
+            "name": "type-check"
+          },
+          "version": "0.3.2"
+        },
+        {
+          "package": {
+            "name": "type-is"
+          },
+          "version": "1.5.7"
+        },
+        {
+          "package": {
+            "name": "type-is"
+          },
+          "version": "1.6.16"
+        },
+        {
+          "package": {
+            "name": "typedarray"
+          },
+          "version": "0.0.6"
+        },
+        {
+          "package": {
+            "name": "uglify-js"
+          },
+          "version": "2.6.2"
+        },
+        {
+          "package": {
+            "name": "uglify-to-browserify"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "umd"
+          },
+          "version": "3.0.3"
+        },
+        {
+          "package": {
+            "name": "undeclared-identifiers"
+          },
+          "version": "1.1.3"
+        },
+        {
+          "package": {
+            "name": "underscore"
+          },
+          "version": "1.9.1"
+        },
+        {
+          "package": {
+            "name": "unicode-length"
+          },
+          "version": "1.0.3"
+        },
+        {
+          "package": {
+            "name": "url"
+          },
+          "version": "0.11.0"
+        },
+        {
+          "package": {
+            "name": "urlgrey"
+          },
+          "version": "0.4.0"
+        },
+        {
+          "package": {
+            "name": "util"
+          },
+          "version": "0.10.3"
+        },
+        {
+          "package": {
+            "name": "util"
+          },
+          "version": "0.10.4"
+        },
+        {
+          "package": {
+            "name": "util-deprecate"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "utils-merge"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "uuid"
+          },
+          "version": "3.3.2"
+        },
+        {
+          "package": {
+            "name": "validate-npm-package-license"
+          },
+          "version": "3.0.1"
+        },
+        {
+          "package": {
+            "name": "vary"
+          },
+          "version": "1.0.1"
+        },
+        {
+          "package": {
+            "name": "vary"
+          },
+          "version": "1.1.2"
+        },
+        {
+          "package": {
+            "name": "verror"
+          },
+          "version": "1.10.0"
+        },
+        {
+          "package": {
+            "name": "vm-browserify"
+          },
+          "version": "0.0.4"
+        },
+        {
+          "package": {
+            "name": "which"
+          },
+          "version": "1.2.10"
+        },
+        {
+          "package": {
+            "name": "which"
+          },
+          "version": "1.3.1"
+        },
+        {
+          "package": {
+            "name": "window-size"
+          },
+          "version": "0.1.0"
+        },
+        {
+          "package": {
+            "name": "window-size"
+          },
+          "version": "0.2.0"
+        },
+        {
+          "package": {
+            "name": "wordwrap"
+          },
+          "version": "0.0.2"
+        },
+        {
+          "package": {
+            "name": "wordwrap"
+          },
+          "version": "0.0.3"
+        },
+        {
+          "package": {
+            "name": "wordwrap"
+          },
+          "version": "1.0.0"
+        },
+        {
+          "package": {
+            "name": "wrap-ansi"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "wrappy"
+          },
+          "version": "1.0.2"
+        },
+        {
+          "package": {
+            "name": "write-file-atomic"
+          },
+          "version": "1.1.4"
+        },
+        {
+          "package": {
+            "name": "xtend"
+          },
+          "version": "4.0.1"
+        },
+        {
+          "package": {
+            "name": "y18n"
+          },
+          "version": "3.2.1"
+        },
+        {
+          "package": {
+            "name": "yallist"
+          },
+          "version": "2.0.0"
+        },
+        {
+          "package": {
+            "name": "yallist"
+          },
+          "version": "2.1.2"
+        },
+        {
+          "package": {
+            "name": "yargs"
+          },
+          "version": "3.10.0"
+        },
+        {
+          "package": {
+            "name": "yargs"
+          },
+          "version": "4.7.1"
+        },
+        {
+          "package": {
+            "name": "yargs-parser"
+          },
+          "version": "2.4.0"
+        }
+      ]
+    }
+  ]
+}
