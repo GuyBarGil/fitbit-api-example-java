@@ -9,7 +9,7 @@
       "description": "Sanitization bypass using HTML Entities in marked",
       "cve": "CVE-2018-8014",
       "severity": "High",
-      "solution": "Upgrade to saml2-js@1.14.2",
+      "solution": "Upgrade to tomcat@9.0.9",
       "scanner": {
         "id": "WhiteSource Unified Agent",
         "name": "WhiteSource Unified Agent"
