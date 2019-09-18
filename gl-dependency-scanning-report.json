@@ -25,7 +25,7 @@
       },
       "identifiers": [
         {
-          "type": "retire.js",
+          "type": "WhiteSource",
           "name": "Security Tracker",
           "url": "http://www.securitytracker.com/id/1040998"
         }
