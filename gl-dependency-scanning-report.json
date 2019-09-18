@@ -44,7 +44,17 @@
       ]
     }
   ],
-  "remediations": [],
+  "remediations": [
+    {
+      "fixes": [
+        {
+          "cve": "yarn.lock:saml2-js:gemnasium:9952e574-7b5b-46fa-a270-aeb694198a98"
+        }
+      ],
+      "summary": "Upgrade saml2-js",
+      "diff": "ZGlmZiAtLWdpdCBhL...OR0d1ZUc2THh3UT09Cg==" // some content is omitted for brevity
+    }
+],
   "dependency_files": [
     {
       "path": "package-lock.json",
