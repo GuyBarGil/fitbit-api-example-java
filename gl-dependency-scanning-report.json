@@ -27,6 +27,7 @@
         {
           "type": "WhiteSource",
           "name": "Security Tracker",
+          "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
           "url": "http://www.securitytracker.com/id/1040998"
         }
       ],
