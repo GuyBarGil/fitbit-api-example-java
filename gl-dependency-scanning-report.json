@@ -3,10 +3,11 @@
   "vulnerabilities": [
     {
       "category": "dependency_scanning",
-      "name": "CVE-2016-4977 - Detected by WhiteSource",
+      "confidence": "confirmed",
+      "name": "CVE-2018-8014 - Detected by WhiteSource",
       "message": "Sanitization bypass using HTML Entities in marked",
-      "description": "When processing authorization requests using the whitelabel views in Spring Security OAuth 2.0.0 to 2.0.9 and 1.0.0 to 1.0.5, the response_type parameter value was executed as Spring SpEL which enabled a malicious user to trigger remote code execution via the crafting of the value for response_type.",
-      "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
+      "description": "The defaults settings for the CORS filter provided in Apache Tomcat 9.0.0.M1 to 9.0.8, 8.5.0 to 8.5.31, 8.0.0.RC1 to 8.0.52, 7.0.41 to 7.0.88 are insecure and enable 'supportsCredentials' for all origins. It is expected that users of the CORS filter will have configured it appropriately for their environment rather than using it in the default configuration. Therefore, it is expected that most users will not be impacted by this issue.",
+      "cve": "CVE-2018-8014",
       "severity": "High",
       "solution": "WhiteSource Remediate Solution",
       "scanner": {
@@ -14,10 +15,10 @@
         "name": "WhiteSource Unified Agent"
       },
       "location": {
-        "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js",
+        "file": "root/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/72761f51fc7cef3ee19d4aafc7adc605df9f611f/tomcat-embed-core-8.5.11.jar",
         "dependency": {
           "package": {
-            "name": "handlebars.js"
+            "name": "tomcat-embed-core-8.5.11.jar"
           },
           "version": "4.0.5"
         }
@@ -25,20 +26,22 @@
       "identifiers": [
         {
           "type": "retire.js",
-          "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
+          "name": "Security Tracker",
           "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
-          "url": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!securityVulnerability;id=CVE-2016-4977"
+          "url": "http://www.securitytracker.com/id/1040998"
         }
       ],
       "links": [
         {
-          "url": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!securityVulnerability;id=CVE-2016-4977"
+          "url": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!securityVulnerability;id=CVE-2018-8014"
         },
         {
-          "url": "https://github.com/wycats/handlebars.js/issues/1495"
+          "name": "Vendor Advisory",
+          "url": "http://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.9"
         },
         {
-          "url": "https://github.com/wycats/handlebars.js/commit/cd38583216dce3252831916323202749431c773e"
+          "name": "Origin",
+          "url": "http://www.securitytracker.com/id/1040998"
         }
       ]
     }
