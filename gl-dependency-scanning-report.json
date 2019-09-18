@@ -43,15 +43,7 @@
       ]
     }
   ],
-  "remediations": [
-    {
-      "fixes": [
-        {
-        "cve": "CVE-2018-8014"
-        }
-      ]
-    }
-  ],
+  "remediations": [],
   "dependency_files": [
     {
       "path": "package-lock.json",
