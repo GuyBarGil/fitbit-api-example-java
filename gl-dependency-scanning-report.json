@@ -4,12 +4,12 @@
     {
       "category": "dependency_scanning",
       "confidence": "confirmed",
-      "name": "CVE-2018-8014 - Detected by WhiteSource",
-      "message": "Sanitization bypass using HTML Entities in marked",
-      "description": "The defaults settings for the CORS filter provided in Apache Tomcat 9.0.0.M1 to 9.0.8, 8.5.0 to 8.5.31, 8.0.0.RC1 to 8.0.52, 7.0.41 to 7.0.88 are insecure and enable 'supportsCredentials' for all origins. It is expected that users of the CORS filter will have configured it appropriately for their environment rather than using it in the default configuration. Therefore, it is expected that most users will not be impacted by this issue.",
+      "name": "CVE-2018-8014",
+      "message": "CVE-2018-8014 - Detected by WhiteSource",
+      "description": "Sanitization bypass using HTML Entities in marked",
       "cve": "CVE-2018-8014",
       "severity": "High",
-      "solution": "WhiteSource Remediate Solution",
+      "solution": "Upgrade to version 9.0.9",
       "scanner": {
         "id": "WhiteSource Unified Agent",
         "name": "WhiteSource Unified Agent"
@@ -36,17 +36,23 @@
           "url": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!securityVulnerability;id=CVE-2018-8014"
         },
         {
-          "name": "Vendor Advisory",
           "url": "http://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.9"
         },
         {
-          "name": "Origin",
           "url": "http://www.securitytracker.com/id/1040998"
         }
       ]
     }
   ],
-  "remediations": [],
+  "remediations": [
+    {
+      "fixes": [
+        {
+        "cve": "CVE-2018-8014"
+        }
+      ]
+    }
+  ],
   "dependency_files": [
     {
       "path": "package-lock.json",
