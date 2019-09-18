@@ -3,13 +3,15 @@
   "vulnerabilities": [
     {
       "category": "dependency_scanning",
-      "name": "GUY",
+      "name": "CVE-2016-4977 - Detected by WhiteSource",
       "message": "GUY",
+      "description": "When processing authorization requests using the whitelabel views in Spring Security OAuth 2.0.0 to 2.0.9 and 1.0.0 to 1.0.5, the response_type parameter value was executed as Spring SpEL which enabled a malicious user to trigger remote code execution via the crafting of the value for response_type.",
       "cve": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js:handlebars.js:retire.js:baf1b2b5f9a7c1dc0fb152365126e6c3",
       "severity": "High",
+      "solution": "WhiteSource Remediate Solution",
       "scanner": {
-        "id": "retire.js",
-        "name": "Retire.js"
+        "id": "WhiteSource Unified Agent",
+        "name": "WhiteSource Unified Agent"
       },
       "location": {
         "file": "node_modules/nyc/node_modules/istanbul/node_modules/handlebars/dist/handlebars.amd.js",
@@ -25,7 +27,7 @@
           "type": "retire.js",
           "name": "RETIRE-JS-baf1b2b5f9a7c1dc0fb152365126e6c3",
           "value": "baf1b2b5f9a7c1dc0fb152365126e6c3",
-          "url": "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183"
+          "url": "https://saas.whitesourcesoftware.com/Wss/WSS.html#!securityVulnerability;id=CVE-2016-4977"
         }
       ],
       "links": [
