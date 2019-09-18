@@ -15,12 +15,12 @@
         "name": "WhiteSource Unified Agent"
       },
       "location": {
-        "file": "root/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.11/72761f51fc7cef3ee19d4aafc7adc605df9f611f/tomcat-embed-core-8.5.11.jar",
+        "file": "yarn.lock",
         "dependency": {
           "package": {
-            "name": "tomcat-embed-core-8.5.11.jar"
+            "name": "saml2-js"
           },
-          "version": "4.0.5"
+          "version": "1.5.0"
         }
       },
       "identifiers": [
