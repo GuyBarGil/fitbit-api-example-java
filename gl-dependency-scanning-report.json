@@ -52,7 +52,7 @@
         }
       ],
       "summary": "Upgrade saml2-js",
-      "diff": "ZGlmZiAtLWdpdCBhL...OR0d1ZUc2THh3UT09Cg==" // some content is omitted for brevity
+      "diff": "ZGlmZiAtLWdpdCBhL...OR0d1ZUc2THh3UT09Cg=="
     },
     {
       "category": "dependency_scanning",
