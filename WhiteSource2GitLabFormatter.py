@@ -27,10 +27,12 @@ class WsVulnerability:
 
     def jsonify_for_gitlab(self):
         return {"category": "dependency_scanning",
-                "name": str(self.get_attribute('name')) + " - Detected by WhiteSource",
-                "message": str(self.get_attribute('description')),
+                "name": str(self.get_attribute('name')),
+                "message": str(self.get_attribute('name')) + " - Detected by WhiteSource",
+                "description": str(self.get_attribute('description')),
                 "cve": str(self.get_attribute('name')),
                 "severity": (str(self.get_attribute('severity'))).title(),
+                "confidence": "Confirmed",
                 "scanner": {
                     "id": "WhiteSource",
                     "name": "WhiteSource"
@@ -46,8 +48,8 @@ class WsVulnerability:
                             },
                 "identifiers": [{
                     "type": "WhiteSource",
-                    "name": "WhiteSource",
-                    "value": "None",
+                    "name": str(self.get_attribute('name')),
+                    "value": str(self.get_attribute('name')),
                     "url": str(self.get_attribute('topFix').get('url'))
                 }],
                 "links": [{
@@ -64,6 +66,7 @@ class WsVulnerability:
     }
 
 
+print("Formatting WS scan report to GitLab JSON")
 ws_scan_report = "scan_report.json"
 gl_report = "gl-dependency-scanning-report-ws.json"
 report_header_json = '{ \n \
@@ -82,6 +85,7 @@ with open(ws_scan_report) as scan_report:
     libraries = get_libraries()
     for library in libraries:
         ws_library = WsLibrary(library)
+        print("Parsing vulnerabilities for {}...".format(ws_library.name[:-4]))
         for vulnerability in ws_library.vulnerabilities:
             vuln = WsVulnerability(vulnerability, ws_library)
             with open(gl_report, 'a') as report:
@@ -94,3 +98,5 @@ with open(gl_report, 'ab+') as report:
 
 with open(gl_report, 'a') as report:
     report.write(report_footer_json)
+
+print("Finished formatting")
